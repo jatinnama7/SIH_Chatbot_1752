@@ -1,0 +1,754 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How can I help you?",
+        "Greetings! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Catch you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Take care!",
+        "Goodbye! It was nice talking to you."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "I appreciate it",
+        "That helps a lot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad I could help!",
+        "No problem, happy to assist!"
+      ]
+    },
+    {
+      "tag": "greetings",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Greetings",
+        "What's up?",
+        "Howdy"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How can I help?",
+        "Hey! What can I do for you today?",
+        "Good day! How can I assist you?",
+        "Greetings! What would you like to know?",
+        "Hello! How can I make your day better?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Bye",
+        "Catch you later",
+        "Talk to you soon",
+        "Have a nice day",
+        "Take care",
+        "See you next time"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Take care!",
+        "Bye! Feel free to come back anytime.",
+        "Catch you later! Stay safe!",
+        "Talk to you soon! Have a good one!",
+        "Take care! Thanks for stopping by."
+      ]
+    },
+    {
+      "tag": "bot_name",
+      "patterns": [
+        "What's your name?",
+        "Do you have a name?",
+        "Who are you?",
+        "What should I call you?",
+        "Tell me your name",
+        "Who am I talking to?"
+      ],
+      "responses": [
+        "I’m your friendly assistant here to help you with postal services.",
+        "You can call me your Post Office assistant!",
+        "I’m your virtual guide for all things postal.",
+        "I’m the assistant bot designed to help you with Post Office queries.",
+        "I’m here to assist you with all your postal needs!"
+      ]
+    },
+    {
+      "tag": "fun_questions",
+      "patterns": [
+        "Tell me a joke",
+        "Do you know any jokes?",
+        "Can you make me laugh?",
+        "Tell me something funny",
+        "Do you have a sense of humor?",
+        "Can you cheer me up?"
+      ],
+      "responses": [
+        "Why did the postman break up with the envelope? It couldn’t contain itself!",
+        "I would tell you a joke about mail, but you might not get it on time!",
+        "Why don’t we ever see postal workers stressed? Because they’re always on the route to success!",
+        "Mail jokes? I always deliver!",
+        "I’m not just here for business; I’ve got jokes too!"
+      ]
+    },
+    {
+      "tag": "service_availability",
+      "patterns": [
+        "Is the Post Office open today?",
+        "What are the Post Office working hours?",
+        "Is there a holiday today?",
+        "When does the Post Office open?",
+        "Are you open on weekends?",
+        "What time does the Post Office close?",
+        "Are Post Offices open on holidays?",
+        "Can I visit on Sunday?",
+        "When is the best time to visit?",
+        "Is there a break time?"
+      ],
+      "responses": [
+        "Post Offices generally operate from 9 AM to 5 PM, Monday to Saturday.",
+        "Hours may vary by location; it’s best to check with your local Post Office.",
+        "Some branches operate on weekends; check the official website for details.",
+        "Post Offices are typically closed on public holidays.",
+        "Yes, breaks are usually during lunch hours from 1 PM to 1:30 PM."
+      ]
+    },
+    {
+      "tag": "general_information",
+      "patterns": [
+        "Can you help me?",
+        "I need assistance",
+        "I have a question",
+        "Can you answer my query?",
+        "I need some help",
+        "I have a concern",
+        "Help me out",
+        "I need to know something",
+        "Can you provide information?"
+      ],
+      "responses": [
+        "Sure, I’m here to help! What would you like to know?",
+        "Of course! Please tell me your query.",
+        "I’m ready to assist. What do you need help with?",
+        "Absolutely! Ask away.",
+        "I’m here to provide any information you need. How can I help?"
+      ]
+    },
+    {
+      "tag": "location_services",
+      "patterns": [
+        "Where is the nearest Post Office?",
+        "Can you help me find a Post Office near me?",
+        "Is there a Post Office nearby?",
+        "What is the address of the nearest Post Office?",
+        "Can I get directions to a Post Office?",
+        "Are there Post Offices in my area?",
+        "What is the closest Post Office to my location?",
+        "Can you locate a Post Office for me?"
+      ],
+      "responses": [
+        "You can find your nearest Post Office using our official website’s locator tool.",
+        "Visit the nearest Post Office location based on your zip code.",
+        "Our location services can help you find the nearest branch.",
+        "Check the Post Office locator on the website for precise directions.",
+        "There are multiple branches in the city; choose the one most convenient for you."
+      ]
+    },
+    {
+      "tag": "postal_charges",
+      "patterns": [
+        "What are the charges for sending a letter?",
+        "How much does parcel delivery cost?",
+        "What are the postal rates?",
+        "Can I know the charges for international delivery?",
+        "What is the cost for express mail?",
+        "Are there different charges for speed post?",
+        "How much does it cost to send a package?",
+        "What are the courier charges?"
+      ],
+      "responses": [
+        "Charges vary based on weight, size, and destination of the item.",
+        "Standard rates for letters and parcels are available at the Post Office.",
+        "International delivery charges depend on the destination country.",
+        "Speed Post services are slightly higher due to faster delivery times.",
+        "You can find all postal rates listed on our official website or at the counter."
+      ]
+    },
+    {
+      "tag": "tracking_services",
+      "patterns": [
+        "How can I track my parcel?",
+        "Can I track my delivery?",
+        "What is the tracking process?",
+        "Is there a way to check my parcel status?",
+        "How do I track a letter?",
+        "Can I see where my package is?",
+        "How to track a registered post?",
+        "What’s the tracking number used for?",
+        "Can I track my item online?"
+      ],
+      "responses": [
+        "You can track your parcel using the tracking number provided at dispatch.",
+        "Visit the Post Office website and enter your tracking number for updates.",
+        "Tracking numbers help you check the real-time status of your delivery.",
+        "Online tracking is available for registered posts, parcels, and speed posts.",
+        "You can track any item shipped with a tracking service directly from our website."
+      ]
+    },
+    {
+      "tag": "lost_items",
+      "patterns": [
+        "I lost my parcel. What should I do?",
+        "My package is missing",
+        "I can’t find my letter",
+        "What happens if my item is lost?",
+        "Can I report a lost package?",
+        "How do I recover lost mail?",
+        "Is there a compensation for lost items?",
+        "Who to contact for lost parcels?",
+        "What is the procedure for lost packages?"
+      ],
+      "responses": [
+        "Report lost items at the nearest Post Office with your receipt and tracking number.",
+        "Contact customer service with the details of your missing parcel.",
+        "There are compensation policies in place for lost mail; please inquire at the counter.",
+        "Lost item procedures involve submitting a complaint and tracking investigation.",
+        "Post Office staff will guide you through the process of recovering lost items."
+      ]
+    },
+    {
+      "tag": "career_guidance",
+      "patterns": [
+        "Can you help me choose a career?",
+        "What are my career options?",
+        "Can AI suggest a career path for me?",
+        "I need career counseling",
+        "Can you guide me in selecting a profession?",
+        "Which career is right for me?",
+        "I’m confused about my career",
+        "Can AI help in my career choice?",
+        "What should I do after school?"
+      ],
+      "responses": [
+        "Our platform provides AI-based career guidance to help you choose the right path.",
+        "You can explore multiple career options based on your interests and skills.",
+        "Career counseling services are designed to guide you toward the best choices.",
+        "AI can assess your strengths and suggest suitable career paths.",
+        "Finding the right career involves understanding your abilities and interests."
+      ]
+    },
+    {
+      "tag": "fun_facts",
+      "patterns": [
+        "Tell me something interesting",
+        "Do you know any fun facts?",
+        "Tell me a random fact",
+        "Can you share an interesting fact?",
+        "What’s something cool you know?",
+        "Do you have any trivia?",
+        "Share a fun fact with me"
+      ],
+      "responses": [
+        "Did you know? The world’s first Post Office opened in London in 1516.",
+        "The longest postal route in the world is over 1,000 miles in Norway!",
+        "Stamps were invented in 1840 in the UK; the first one was called the Penny Black.",
+        "The fastest mail delivery was a letter sent from San Francisco to New York in under 2 days!",
+        "The highest Post Office in the world is in Hikkim, India, at over 15,000 feet above sea level!"
+      ]
+    },
+    {
+      "tag": "financial_services",
+      "patterns": [
+        "Do you offer financial services?",
+        "What banking services are available?",
+        "Can I open a savings account here?",
+        "Do you provide insurance?",
+        "What investment options are available?",
+        "Can I apply for loans at the Post Office?",
+        "What are the interest rates on savings accounts?",
+        "Can I get a pension through the Post Office?",
+        "Are there recurring deposit schemes?",
+        "How do I start a fixed deposit?"
+      ],
+      "responses": [
+        "Post Offices offer savings accounts, recurring deposits, and fixed deposits.",
+        "Financial services include various insurance and investment options.",
+        "You can open a savings account easily at the nearest Post Office.",
+        "Insurance products and pension schemes are available for eligible customers.",
+        "Investment options come with attractive interest rates and secure returns."
+      ]
+    },
+    {
+      "tag": "general_fun",
+      "patterns": [
+        "Do you like chatting?",
+        "What do you do for fun?",
+        "Can you play games?",
+        "Do you enjoy talking to people?",
+        "Are you having a good day?",
+        "Can we be friends?",
+        "Do you have hobbies?"
+      ],
+      "responses": [
+        "I enjoy helping people like you find answers and information!",
+        "Chatting with you is my favorite thing to do.",
+        "I’m here to make your day better with useful information.",
+        "Every day is a good day when I get to assist you!",
+        "I’m always here to chat and help – we can definitely be friends!"
+      ]
+    },
+    {
+      "tag": "post_office_services",
+      "patterns": [
+        "What services are available at the Post Office counter?",
+        "Can I send a parcel from the counter?",
+        "What are the operating hours of the Post Office?",
+        "Is there a way to pay bills at the Post Office?",
+        "Can I access financial services at the counter?",
+        "How do I get information about insurance services?",
+        "Are citizen-centric services available at every Post Office?",
+        "Do all Post Offices provide the same services?",
+        "What is the timing for mail services at the counter?",
+        "How do I know if a particular service is available at my nearest Post Office?"
+      ],
+      "responses": [
+        "Post Office counters offer a variety of services including mailing, parcel delivery, financial services, payment facilities, and more.",
+        "Yes, you can send parcels from the counter. Just visit the nearest Post Office for details.",
+        "Post Offices usually operate from 9 AM to 5 PM, Monday to Saturday.",
+        "Yes, you can pay bills at the Post Office counter. Check with your local branch for available billers.",
+        "Financial services like savings accounts, fixed deposits, and money transfers are available.",
+        "Insurance services information can be obtained at the Post Office counters.",
+        "Yes, citizen-centric services are offered at various Post Offices.",
+        "Services may vary; it's best to check with your local Post Office.",
+        "Mail services are typically available during regular operating hours.",
+        "You can inquire at your local Post Office or check their website."
+      ]
+    },
+    {
+      "tag": "queue_management",
+      "patterns": [
+        "How are queues managed at the Post Office?",
+        "Is there a dynamic queue management system?",
+        "How does the queue system work?",
+        "Can I get a token for my service?",
+        "Are there separate queues for different services?",
+        "Is there a priority queue for elderly or disabled people?",
+        "How long is the usual wait time?",
+        "Can I book my slot in advance?",
+        "How is crowd control managed?",
+        "Are there digital displays for queue management?"
+      ],
+      "responses": [
+        "Queues are managed using a dynamic queue management system in larger Post Offices.",
+        "Yes, a dynamic queue management system is in place at many Post Offices.",
+        "The queue system works with tokens issued to manage the order of service.",
+        "Yes, you can get a token from the counter or a kiosk.",
+        "Some Post Offices have separate queues based on the type of service.",
+        "Priority queues are available for the elderly, disabled, and other special categories.",
+        "Wait times vary, usually ranging from a few minutes to half an hour.",
+        "Some Post Offices offer advance booking; please check with your branch.",
+        "Crowd control is managed by staff and the queue management system.",
+        "Digital displays are used in many Post Offices to show queue status."
+      ]
+    },
+    {
+      "tag": "feedback_system",
+      "patterns": [
+        "How can I give feedback on Post Office services?",
+        "Is there a feedback form available?",
+        "Can I provide feedback online?",
+        "Are there feedback boxes at the Post Office?",
+        "How is customer feedback handled?",
+        "What happens after I submit feedback?",
+        "Is feedback taken seriously by the Post Office?",
+        "Can I give feedback anonymously?",
+        "Is there a rating system for Post Office services?",
+        "How often is feedback reviewed?"
+      ],
+      "responses": [
+        "Feedback can be given through forms at the Post Office or online.",
+        "Yes, feedback forms are available at most counters.",
+        "Online feedback is also accepted through the official Post Office website.",
+        "Feedback boxes are placed at various locations within the Post Office.",
+        "Customer feedback is collected and reviewed regularly for service improvement.",
+        "Once submitted, feedback is reviewed by the concerned authorities.",
+        "Yes, feedback is taken seriously and used to enhance service quality.",
+        "Anonymous feedback is accepted; however, providing contact details helps in follow-up.",
+        "There is a basic rating system in place at some Post Offices.",
+        "Feedback is usually reviewed weekly or monthly, depending on the volume."
+      ]
+    },
+    {
+      "tag": "service_monitoring",
+      "patterns": [
+        "How are counter services monitored?",
+        "Are there cameras monitoring the counters?",
+        "How is service quality checked?",
+        "Are staff performances tracked?",
+        "Is there a real-time monitoring system?",
+        "How is customer satisfaction measured?",
+        "Are there reports generated for service performance?",
+        "Can I see the service statistics?",
+        "Who monitors the counter services?",
+        "Are there regular audits of counter services?"
+      ],
+      "responses": [
+        "Counter services are monitored through cameras and feedback systems.",
+        "Yes, cameras are installed in many Post Offices to monitor service areas.",
+        "Service quality is checked through feedback, monitoring, and audits.",
+        "Staff performance is tracked based on feedback and service speed metrics.",
+        "Real-time monitoring is available at larger Post Offices.",
+        "Customer satisfaction is measured through surveys and feedback.",
+        "Reports are generated regularly to track service performance.",
+        "Service statistics are available for internal use by Post Office management.",
+        "Monitoring is conducted by Postmasters and designated staff.",
+        "Regular audits are performed to ensure service standards are met."
+      ]
+    },
+    {
+      "tag": "technology_use",
+      "patterns": [
+        "What technology is used for service monitoring?",
+        "Is AI used to improve service quality?",
+        "How is AI integrated into Post Office services?",
+        "Are there any automated systems in place?",
+        "How does the queue management system work?",
+        "What Industry 4.0 technologies are implemented?",
+        "Can technology detect long queues?",
+        "How does the system handle peak times?",
+        "Are there any modern technologies in use?",
+        "What tools are used for monitoring efficiency?"
+      ],
+      "responses": [
+        "Technologies like AI, cameras, and digital displays are used for monitoring.",
+        "AI is utilized in some areas to enhance service quality.",
+        "AI helps in analyzing service times and customer behavior.",
+        "Automated systems manage queues, monitor counters, and collect feedback.",
+        "The queue management system uses tokens and digital displays for order.",
+        "Industry 4.0 technologies include AI, IoT, and data analytics.",
+        "The system can detect long queues and adjust service accordingly.",
+        "Peak times are managed using real-time monitoring and resource adjustments.",
+        "Modern technologies like AI and automation are in use at various levels.",
+        "Tools like AI, digital displays, and analytics are used for efficiency monitoring."
+      ]
+    },
+    {
+      "tag": "customer_support",
+      "patterns": [
+        "Who can I contact for support?",
+        "Is there a customer service desk?",
+        "How do I get help at the Post Office?",
+        "Can I call someone for assistance?",
+        "Are there staff available to answer questions?",
+        "Where can I find information on Post Office services?",
+        "Is there a helpline number for the Post Office?",
+        "How do I speak to a manager?",
+        "Can I request a callback for my queries?",
+        "Are there information kiosks at the Post Office?"
+      ],
+      "responses": [
+        "You can contact the customer service desk at the Post Office for support.",
+        "Yes, customer service desks are available at most locations.",
+        "For help, visit the counter, or ask any available staff member.",
+        "Support can be accessed by calling the Post Office helpline.",
+        "Staff are always available to assist with your questions.",
+        "Information on services is available at the counter or online.",
+        "The Post Office helpline can provide assistance over the phone.",
+        "Managers are available upon request for more complex issues.",
+        "Some Post Offices offer a callback service for customer queries.",
+        "Information kiosks are available at select Post Offices."
+      ]
+    },
+    {
+      "tag": "service_time",
+      "patterns": [
+        "How long does it take to send a parcel?",
+        "What is the average waiting time for postal services?",
+        "How fast are financial transactions at the Post Office?",
+        "What are the service time norms?",
+        "Can I know the expected time for each service?"
+      ],
+      "responses": [
+        "Parcel service times vary depending on the size and type of parcel.",
+        "Waiting times vary but are usually minimized with the queue system.",
+        "Financial transactions are usually processed quickly, within minutes.",
+        "Service time norms are defined in the Citizen's Charter.",
+        "Each service has specific time norms; staff can provide estimates."
+      ]
+    },
+    {
+      "tag": "complaints",
+      "patterns": [
+        "How can I file a complaint about services?",
+        "Who do I contact for complaints?",
+        "Is there an online complaint system?",
+        "What is the process for lodging a complaint?",
+        "Can I complain about the waiting time?",
+        "How are complaints handled?",
+        "Can I track my complaint status?",
+        "Are complaints taken seriously?",
+        "What actions are taken on complaints?",
+        "Can I complain about staff behavior?"
+      ],
+      "responses": [
+        "Complaints can be filed online or at the Post Office.",
+        "Contact the customer service desk for complaints.",
+        "Yes, complaints can be registered online through the official website.",
+        "You need to fill out a complaint form at the Post Office or online.",
+        "Yes, you can complain about excessive waiting times.",
+        "Complaints are reviewed by higher authorities for action.",
+        "You can track your complaint status through the online portal.",
+        "Yes, complaints are treated with priority.",
+        "Actions vary depending on the nature of the complaint.",
+        "Yes, you can file complaints about staff behavior at the service desk."
+      ]
+    },
+    {
+      "tag": "cctv_monitoring",
+      "patterns": [
+        "Are there CCTVs at all Post Offices?",
+        "How is CCTV used for monitoring?",
+        "Can CCTV footage be accessed by customers?",
+        "Who monitors the CCTV footage?",
+        "Is there a live feed of the customer service area?",
+        "Can CCTV footage help resolve disputes?",
+        "Are there privacy policies for CCTV monitoring?",
+        "How long is CCTV footage stored?",
+        "Can I request CCTV footage?",
+        "How are CCTVs beneficial?"
+      ],
+      "responses": [
+        "CCTVs are installed in most major Post Offices.",
+        "CCTV helps in monitoring service quality and managing security.",
+        "CCTV footage is not accessible to customers for privacy reasons.",
+        "CCTV footage is monitored by authorized personnel.",
+        "Some offices may have live feeds for management.",
+        "Yes, CCTV footage can be used to resolve service-related disputes.",
+        "Privacy policies ensure footage is used responsibly.",
+        "CCTV footage is stored for a limited period, usually 30 days.",
+        "CCTV footage requests need approval from higher authorities.",
+        "CCTVs help enhance security and service monitoring."
+      ]
+    },
+    {
+      "tag": "citizens_charter",
+      "patterns": [
+        "What is the Citizen’s Charter?",
+        "What are the standards defined in the Citizen’s Charter?",
+        "How does the Citizen’s Charter affect Post Office services?",
+        "Where can I find the Citizen’s Charter?",
+        "Can I get a copy of the Citizen’s Charter?",
+        "Are Post Offices following the Citizen’s Charter?",
+        "How are services aligned with the Citizen’s Charter?",
+        "What is the Citizen’s Charter for postal services?",
+        "Are service timings part of the Citizen’s Charter?",
+        "How often is the Citizen’s Charter updated?"
+      ],
+      "responses": [
+        "The Citizen’s Charter outlines service standards for customer satisfaction.",
+        "Standards include time norms and service quality benchmarks.",
+        "The Charter sets guidelines for how services should be delivered.",
+        "You can find it on the official Department of Posts website.",
+        "Yes, copies are available at Post Offices or online.",
+        "Post Offices strive to adhere to the guidelines of the Citizen’s Charter.",
+        "Services are regularly evaluated against Charter standards.",
+        "The Citizen’s Charter provides transparency and accountability.",
+        "Yes, service timings are part of the defined standards.",
+        "The Charter is reviewed and updated periodically."
+      ]
+    },
+    {
+      "tag": "financial_services",
+      "patterns": [
+        "What financial services are available?",
+        "Can I open a savings account at the Post Office?",
+        "Is there a fixed deposit facility?",
+        "Can I send money through the Post Office?",
+        "What are the charges for financial services?",
+        "Is there any investment option available?",
+        "How secure are the financial services?",
+        "Can I link my bank account to Post Office services?",
+        "Is there a pension scheme available?",
+        "What are the interest rates on savings?"
+      ],
+      "responses": [
+        "Financial services include savings accounts, deposits, and money transfers.",
+        "Yes, savings accounts can be opened at the Post Office.",
+        "Fixed deposit facilities are available with competitive interest rates.",
+        "Yes, money transfer services are offered.",
+        "Charges vary based on the service; consult the counter for specifics.",
+        "Investment options include fixed deposits and recurring deposits.",
+        "Financial services are secured with robust policies.",
+        "Yes, bank accounts can be linked for seamless transactions.",
+        "Pension schemes are available for eligible individuals.",
+        "Interest rates vary; please check the latest rates at the Post Office."
+      ]
+    },
+    {
+      "tag": "payment_services",
+      "patterns": [
+        "Can I pay my bills at the Post Office?",
+        "Which bills can be paid at the counter?",
+        "Are there any payment services available?",
+        "Can I pay my electricity bill here?",
+        "Is there a fee for paying bills?",
+        "Can I pay taxes at the Post Office?",
+        "How are payments processed?",
+        "Are digital payments accepted?",
+        "Can I pay using my debit or credit card?",
+        "What is the processing time for payments?"
+      ],
+      "responses": [
+        "Yes, various bill payments can be made at the Post Office.",
+        "You can pay electricity, water, and other utility bills.",
+        "Payment services include utility bills, taxes, and fees.",
+        "Yes, electricity bills can be paid at select Post Offices.",
+        "Service fees may apply depending on the bill type.",
+        "Yes, tax payments are possible at designated counters.",
+        "Payments are processed electronically for quick service.",
+        "Digital payments are accepted, including UPI and mobile wallets.",
+        "Yes, cards are accepted for most transactions.",
+        "Payments are usually processed instantly, but may take a few minutes."
+      ]
+    },
+    {
+      "tag": "insurance_services",
+      "patterns": [
+        "What insurance services are offered?",
+        "Can I get life insurance at the Post Office?",
+        "Are there insurance plans for senior citizens?",
+        "What are the benefits of postal insurance?",
+        "Can I renew my insurance policy at the counter?",
+        "How do I apply for insurance?",
+        "Is there health insurance available?",
+        "Can I pay my insurance premium at the Post Office?",
+        "Are there any schemes for farmers?",
+        "Is there a dedicated insurance counter?"
+      ],
+      "responses": [
+        "Insurance services include life and accident insurance.",
+        "Yes, life insurance plans are available at the Post Office.",
+        "Special insurance plans for senior citizens are available.",
+        "Postal insurance provides affordable and secure coverage.",
+        "Yes, you can renew policies at designated counters.",
+        "Insurance applications can be filled out at the Post Office.",
+        "Currently, only life and accident insurance is available.",
+        "Premium payments can be made at the Post Office.",
+        "Yes, there are schemes specifically designed for farmers.",
+        "Many Post Offices have dedicated insurance counters."
+      ]
+    },
+    {
+      "tag": "citizen_services",
+      "patterns": [
+        "What citizen-centric services are available?",
+        "Can I get my Aadhaar updated at the Post Office?",
+        "Is there a facility to update voter details?",
+        "Can I avail government schemes here?",
+        "Are pension services available?",
+        "Can I submit government forms?",
+        "Is there a facility for paying fines?",
+        "Can I access any digital services?",
+        "What government services are offered?",
+        "Are Post Offices connected to government portals?"
+      ],
+      "responses": [
+        "Citizen-centric services include Aadhaar updates, bill payments, and more.",
+        "Yes, Aadhaar updates can be done at designated Post Offices.",
+        "Voter detail updates are available at some locations.",
+        "Post Offices facilitate many government schemes.",
+        "Pension services are available for eligible citizens.",
+        "Government forms can be submitted at specific counters.",
+        "Fine payments are possible for certain categories.",
+        "Digital services such as form submissions are supported.",
+        "Various government services are accessible through the Post Office.",
+        "Yes, Post Offices are integrated with multiple government portals."
+      ]
+    },
+    {
+      "tag": "new_services",
+      "patterns": [
+        "Are there any new services introduced?",
+        "What’s the latest service at the Post Office?",
+        "Can I know about new postal products?",
+        "Is there any latest scheme available?",
+        "Are there new financial products?",
+        "Has any technology been introduced recently?",
+        "What new facilities are being added?",
+        "Any updates on the digital services?",
+        "Are there any promotional offers?",
+        "What are the latest updates?"
+      ],
+      "responses": [
+        "New services are regularly introduced; please check the notice board.",
+        "Latest services include new financial products and improved delivery options.",
+        "New products are showcased at the Post Office regularly.",
+        "Latest schemes are updated on the official website and at the counter.",
+        "Yes, new financial products are introduced to meet customer needs.",
+        "Technology like digital payments and online services has been enhanced.",
+        "New facilities include improved counters and faster processing.",
+        "Digital services are continuously updated for better accessibility.",
+        "Promotional offers are displayed at the counter or online.",
+        "Check the updates section on our website for the latest information."
+      ]
+    },
+    {
+      "tag": "special_schemes",
+      "patterns": [
+        "What special schemes are available for women?",
+        "Are there any senior citizen schemes?",
+        "What schemes are available for students?",
+        "Is there any scheme for farmers?",
+        "Are there special benefits for the disabled?",
+        "What government schemes are offered here?",
+        "Is there a child savings scheme?",
+        "What are the benefits of the Kisan Vikas Patra?",
+        "Can I get details about the Sukanya Samriddhi Account?",
+        "What are the latest special schemes?"
+      ],
+      "responses": [
+        "Special schemes for women include savings accounts and insurance options.",
+        "Senior citizens can avail of pension and savings schemes.",
+        "Student savings schemes are available with attractive interest rates.",
+        "Farmers can benefit from schemes like Kisan Vikas Patra.",
+        "Special schemes for the disabled are designed to provide financial security.",
+        "Various government schemes are accessible through the Post Office.",
+        "Child savings schemes offer secure options for future planning.",
+        "Kisan Vikas Patra offers good returns with a secure investment.",
+        "Sukanya Samriddhi is a great option for parents of girl children.",
+        "New special schemes are updated periodically; check with the counter."
+      ]
+    }
+  ]
+}
